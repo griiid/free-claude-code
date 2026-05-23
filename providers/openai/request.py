@@ -7,7 +7,7 @@ from core.anthropic.conversion import OpenAIConversionError
 from providers.exceptions import InvalidRequestError
 
 
-def build_request_body(request_data: Any, *, thinking_enabled: bool) -> dict:
+def build_request_body(request_data: Any) -> dict:
     try:
         body = build_base_request_body(
             request_data,
