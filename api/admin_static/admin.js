@@ -70,7 +70,7 @@ function providerName(providerId) {
     wafer: "Wafer",
     opencode: "OpenCode Zen",
     opencode_go: "OpenCode Go",
-    openai: "OpenAI",
+    openai: "Open AI",
     zai: "Z.ai",
   };
   if (names[providerId]) return names[providerId];
